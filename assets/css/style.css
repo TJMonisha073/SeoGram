@@ -102,6 +102,7 @@ nav {
     color: var(--secondary-color);
     font-size: 1.8rem;
     font-weight: 400;
+    line-height: 1.5;
     margin: 30px 0px 60px 0px;
 }
 .header-content a {
@@ -190,7 +191,7 @@ nav {
 .about-content p{
     color: #898798;
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.5;
     margin: 15px 0px;
 }
@@ -269,20 +270,17 @@ nav {
 /* services section end  */
 /* seo section start  */
 .seo-check {
-    background: radial-gradient(circle,#B262F8 15%,#5439F8);
-}
-.bg-image {
-    height: 270px;
-    background: url(../photos/bg_pattern.svg);
+    background: url(../photos/bg_pattern.svg),radial-gradient(circle,#B262F8 15%,#5439F8);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding: 80px 0px;
 }
 .seo-check-area h2{
     color: var(--light-color);
     font-size: 3.2rem;
     font-weight: 500;
-    padding: 80px 0px 30px 0px;
+    padding-bottom: 30px;
     text-align: center;
 }
 .seo-check-area form input {
@@ -429,7 +427,7 @@ nav {
     color: var(--light-color);
 }
 .pricing-plan .active ul li span {
-    color: var(--text-color);
+    color: #d7d5e9;
 }
 .pricing-plan .active a {
     background: var(--light-color);
@@ -438,14 +436,11 @@ nav {
 /* pricing section end */
 /* SEO-Brand section start */
 .seoBrand {
-    background: #563AF8;
-    padding: 70px 0px;
-}
-.seobgImg {
-    background: url(../photos/bg_pattern.svg);
+    background: url(../photos/bg_pattern.svg), radial-gradient(#5439f8, #5439f8);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding: 70px 0px;
 }
 .seoBrandTitle {
     flex: 1 1 105%;
