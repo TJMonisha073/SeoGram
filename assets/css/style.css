@@ -219,34 +219,34 @@ nav {
     background: var(--soft-color);
     padding-bottom: 50px;
 }
-.seoTitle {
+.servicesTitle {
     text-align: center;
     padding: 70px 0px 40px 0px;
 }
-.seoTitle h3 {
+.servicesTitle h3 {
     color: var(--text-color);
     font-size: 1.6rem;
     font-weight: 500;
     letter-spacing: 3px;
 }
-.seoTitle h2{
+.servicesTitle h2{
     color: var(--secondary-color);
     font-size: 3.2rem;
     font-weight: 500;
     padding: 15px 0px;
 }
-.seoTitle h5 {
+.servicesTitle h5 {
     width: 5%;
     border-bottom: 3px solid var(--primary-color);
     padding-bottom: 10px;
     margin: auto;
 }
-.seo-box {
+.services-box {
     flex: 1 1 20%;
     text-align: center;
     padding: 15px 20px;
 }
-.seo-box i {
+.services-box i {
     background: var(--light-color);
     padding: 20px 22px;
     border-radius: 50%;
@@ -254,16 +254,235 @@ nav {
     font-size: 3rem;
     margin-bottom: 20px;
 }
-.seo-box  h4{
+.services-box  h4{
     color: var(--dark-color);
     font-size: 2rem;
     font-weight: 500;
 }
-.seo-box p{
+.services-box p{
     color: #898798;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.3;
     margin: 15px 0px;
 }
-/* SeoTeam section end  */
+/* services section end  */
+/* seo section start  */
+.seo-check {
+    background: radial-gradient(circle,#B262F8 15%,#5439F8);
+}
+.bg-image {
+    height: 270px;
+    background: url(../photos/bg_pattern.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.seo-check-area h2{
+    color: var(--light-color);
+    font-size: 3.2rem;
+    font-weight: 500;
+    padding: 80px 0px 30px 0px;
+    text-align: center;
+}
+.seo-check-area form input {
+    width: 60%;
+    padding: 18px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    margin-left: 115px;
+}
+.seo-check-area form button {
+    font-size: 1.6rem;
+    background: var(--bd-color);
+    color: var(--light-color);
+    padding: 12px 25px;
+    border-radius: 4px;
+    border: none;
+    position: relative;
+    top: 0;
+    right: 140px;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.seo-check-area form button:hover {
+    background: var(--secondary-color);
+}
+.seo-check-area form {
+    text-align: center;
+}
+/* seo section end  */
+/* pricing section start */
+.pricing {
+    margin: 20px 0px 80px 0px;
+}
+.pricingTitle {
+    text-align: center;
+    padding: 70px 0px;
+}
+.pricingTitle h3 {
+    color: var(--text-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.pricingTitle h2{
+    color: var(--secondary-color);
+    font-size: 3.2rem;
+    font-weight: 500;
+    padding: 15px 0px;
+}
+.pricingTitle h5 {
+    width: 5%;
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin: auto;
+}
+.price-plan-box {
+    flex: 1 1 50%;
+    border: 2px solid #eee;
+    margin-right: 70px;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px #eee, -1px -1px 10px #eee;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.price-plan-box h5 {
+    color: var(--text-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.price-plan-box h3 {
+    color: var(--dark-color);
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+.price-plan-box h3 span {
+    font-size: 2.4rem;
+    color: var(--text-color);
+}
+.price-plan-box span.doller {
+    color: var(--dark-color);
+    font-size: 1.6rem;
+    position: relative;
+    bottom: 20px;
+    padding: 2px;
+}
+.price-plan-box h4 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 500;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 35px;
+    margin-bottom: 20px;
+}
+.price-plan-box ul li{
+    color: var(--dark-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.5;
+}
+.price-plan-box ul li span{
+    color: var(--text-color);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.price-plan-box a {
+    width: 80%;
+    font-size: 1.6rem;
+    background: var(--text-color);
+    color: var(--light-color);
+    padding: 12px 25px;
+    border-radius: 4px;
+    margin-top: 35px;
+}
+.price-plan-box:last-child {
+    margin-right: 0px;
+}  
+.price-plan-box ul li:last-child {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 25px;
+}
+.pricing-plan .active {
+    background: var(--primary-color);
+}
+.pricing-plan .active h5 {
+    color: var(--light-color);
+}
+.pricing-plan .active h3 {
+    color: var(--light-color);
+}
+.pricing-plan .active h3 span {
+    color: var(--light-color);
+}
+.pricing-plan .active h4 {
+    color: var(--light-color);
+}
+.pricing-plan .active ul li {
+    color: var(--light-color);
+}
+.pricing-plan .active ul li span {
+    color: var(--text-color);
+}
+.pricing-plan .active a {
+    background: var(--light-color);
+    color: var(--primary-color);
+}
+/* pricing section end */
+/* SEO-Brand section start */
+.seoBrand {
+    background: #563AF8;
+    padding: 70px 0px;
+}
+.seobgImg {
+    background: url(../photos/bg_pattern.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.seoBrandTitle {
+    flex: 1 1 105%;
+}
+.seoBrandTitle h2{
+    color: var(--light-color);
+    font-size: 3.2rem;
+    font-weight: 500;
+    padding: 10px 130px 10px 0px;
+}
+.seoBrandTitle h5 {
+    width: 5%;
+    border-bottom: 3px solid var(--light-color);
+    margin: 10px 0px 30px 0px;
+}
+.seoBrandTitle p{
+    color: var(--light-color);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.seoBrandTitle ul li {
+    list-style-type: disc;
+    font-size: 2.5rem;
+    color: var(--light-color);
+    margin-left: 60px;
+}
+.seoBrandTitle ul li h3{
+    color: var(--light-color);
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px 40px 10px 0px;
+}
+.seoBrand-poster {
+    flex: 1 1 100%;
+}
+.seoBrand-poster {
+    text-align: center;
+}
+/* SEO-Brand section end */
