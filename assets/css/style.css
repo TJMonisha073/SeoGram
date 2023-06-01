@@ -44,6 +44,10 @@ body, p, h1, h2, h3, h4, h5, h6 {
     margin: 0px;
     padding: 0px;
 }
+/* img {
+    width: 100%;
+    height: auto;
+} */
 /* Common Code End */ 
 /* nav section start  */
 nav {
@@ -254,6 +258,7 @@ nav {
     color: var(--primary-color);
     font-size: 3rem;
     margin-bottom: 20px;
+    box-shadow: 1px 1px 8px #5439f857, -1px -1px 8px #41414640;
 }
 .services-box  h4{
     color: var(--dark-color);
@@ -269,31 +274,43 @@ nav {
 }
 /* services section end  */
 /* seo section start  */
-.seo-check {
-    background: url(../photos/bg_pattern.svg),radial-gradient(circle,#B262F8 15%,#5439F8);
+.domain-search {
+    background: url(../photos/bg_pattern.svg),radial-gradient(circle,rgb(178, 99, 248) 15%,rgb(84, 57, 248));
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 80px 0px;
 }
-.seo-check-area h2{
+.domain-search-area {
+    text-align: center;
+}
+.domain-search-area h2{
     color: var(--light-color);
     font-size: 3.2rem;
     font-weight: 500;
     padding-bottom: 30px;
-    text-align: center;
+    /* text-align: center; */
 }
-.seo-check-area form input {
+.domain-search-area form {
+    display: flex;
     width: 60%;
+    margin: 0px auto;
+
+    /* text-align: center; */
+}
+.domain-search-area form input {
+    width: 100%;
+    /* width: 60%;
     padding: 18px 20px;
     border-radius: 5px;
     border: none;
     outline: none;
     font-size: 1.6rem;
-    margin-left: 115px;
+    margin-left: 115px; */
 }
-.seo-check-area form button {
-    font-size: 1.6rem;
+.domain-search-area form button {
+    width: 100%;
+    /* font-size: 1.6rem;
     background: var(--bd-color);
     color: var(--light-color);
     padding: 12px 25px;
@@ -303,13 +320,10 @@ nav {
     top: 0;
     right: 140px;
     transition: var(--transition);
-    cursor: pointer;
+    cursor: pointer; */
 }
-.seo-check-area form button:hover {
+.domain-search-area form button:hover {
     background: var(--secondary-color);
-}
-.seo-check-area form {
-    text-align: center;
 }
 /* seo section end  */
 /* pricing section start */
@@ -346,10 +360,6 @@ nav {
     padding: 40px 20px;
     border-radius: 8px;
     box-shadow: 1px 1px 10px #eee, -1px -1px 10px #eee;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
 }
 .price-plan-box h5 {
     color: var(--text-color);
@@ -481,3 +491,79 @@ nav {
     text-align: center;
 }
 /* SEO-Brand section end */
+/* blog section start */
+.blog-section {
+    background: var(--soft-color);
+    padding-bottom: 50px;
+}
+.blogTitle {
+    text-align: center;
+    padding: 70px 0px 40px 0px;
+}
+.blogTitle h3 {
+    color: var(--text-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.blogTitle h2{
+    color: var(--secondary-color);
+    font-size: 3.2rem;
+    font-weight: 500;
+    padding: 15px 0px;
+}
+.blogTitle h5 {
+    width: 5%;
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin: auto;
+}
+.blogCard {
+    flex: 1 1 100%;
+    margin: 0px 100px 50px 0px;
+    border-radius: 5px;
+    background: var(--light-color);
+    box-shadow: 1px 1px 8px #5439f857, -1px -1px 8px #41414640;
+}
+.blogCard:last-child {
+    margin-right: 0px;
+}
+.blog-img img {
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+    height: auto;
+}
+.blog-info {
+    padding: 5px 20px ;
+}
+.blog-info h3{
+    color: var(--secondary-color);
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.blog-info p{
+    color: #898798;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 10px 0px 20px 0px;
+    line-height: 1.5;
+}
+.blog-info p span {
+    color: var(--primary-color);
+}
+.blogMore {
+    text-align: center;
+}
+.blogMore a {
+    font-size: 1.6rem;
+    background: var(--primary-color);
+    color: var(--light-color);
+    padding: 12px 25px;
+    border-radius: 4px;
+    transition: var(--transition);
+}
+.blogMore a:hover {
+    background: var(--secondary-color);
+}
+/* blog section end */
